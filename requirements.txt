@@ -1,0 +1,15 @@
+torch==2.9.0
+torchvision==0.24.0
+matplotlib==3.10.7
+pandas==2.3.2
+pyarrow==20.0.0
+Pillow==11.1.0
+numpy==2.2.3
+
+# Optional / common extras (uncomment if needed)
+# tqdm==4.67.1
+#scikit-learn==1.2.2
+
+# NOTE: These versions were captured from the active Python environment.
+# If you plan to install a specific CUDA-enabled wheel for torch, follow
+# the official install instructions: https://pytorch.org/get-started/locally/

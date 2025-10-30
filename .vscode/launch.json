@@ -1,0 +1,26 @@
+{
+    // VS Code Python debug config to run ai.py in the workspace
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run ai.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/ai.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+        ,
+        {
+            "name": "Python: Debug Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": { "DEBUG": "1" },
+            "justMyCode": true
+        }
+    ]
+}
